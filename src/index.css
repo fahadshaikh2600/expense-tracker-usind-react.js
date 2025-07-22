@@ -118,3 +118,24 @@ padding-left: 12px;
   cursor: pointer;
   
 }
+ sup{
+  color: red;
+ }
+  form{
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+  }
+  .input-containor{
+display: flex;
+flex-direction: column;
+  }
+  .form-heading{
+
+
+display: flex;
+border-bottom: 2px solid black;
+
+  }
