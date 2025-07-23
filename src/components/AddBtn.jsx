@@ -1,24 +1,13 @@
 import { useState } from "react";
-import * as Yup from 'yup'
 export const AddBtn = () => {
-    const handleSubmit = async (e) => { };
-
-
     const [formData, setFormData] = useState({
         expenseName: "",
         date: "",
         category: "",
         amount: "",
-
     });
-
-    const validationSchema = Yup.object({
-        expenseName: Yup.string().required()
-
-
-    })
     return (
-        <form onSubmit={handleSubmit}>
+        <form >
             <div className="form-heading">
                 <h2>Add Expense</h2><button>x</button>
             </div>
@@ -47,4 +36,5 @@ export const AddBtn = () => {
 
         </form>
     )
-}
+
+};

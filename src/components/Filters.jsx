@@ -4,7 +4,8 @@ export const Filters = () => {
 
     return (
         <div className="bar">
-            <input type="text" placeholder="Search" className="search" /><i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text" placeholder="Search" className="search" />
 
             <button className="filter active">📁 All Expenses</button>
             <button className="filter">🍕 Food & Drinks</button>

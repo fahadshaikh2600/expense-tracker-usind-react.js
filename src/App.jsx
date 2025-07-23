@@ -4,11 +4,13 @@ import { Header } from './components/Header'
 import { Herosection } from './components/Herosection'
 import { Filters } from './components/Filters'
 import { AddBtn } from './components/AddBtn';
+import { ExpenseTable } from './components/ExpenseTable';
+import DonutGraph from './components/DonutGraph';
+import LineGraph from './components/LineGraph';
 
 function App() {
   const [budget, setBudget] = useState(0);
   const [expense, setExpense] = useState(0);
-  const [remaining, setRemaining] = useState(0);
 
 
   return (
@@ -22,8 +24,10 @@ function App() {
       </div>
       <Filters />
 
+      <ExpenseTable />
 
-      <AddBtn />
+      <DonutGraph />   <LineGraph />
+
 
     </>
   )
